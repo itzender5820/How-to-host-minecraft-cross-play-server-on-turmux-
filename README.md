@@ -5,6 +5,7 @@ Here I'm gonna show you how you can host a minecraft crossplay server using just
 
 
 pkg update -y && pkg upgrade -y
+
 pkg install openjdk-21 wget nano -y
 
 2. make server folder
@@ -67,7 +68,7 @@ bedrock:
   address: 0.0.0.0
   port: 19132
 remote:
-  address: 127.0.0.1
+  address: x.x.x.x ( note : you have to put your local ip here to check "ifconfig" in terminal )
   port: 25565
   auth-type: floodgate
 
